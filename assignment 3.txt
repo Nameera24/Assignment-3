@@ -1,0 +1,149 @@
+/// Question No 1///
+ANSWER:
+void main() {
+  final ball_List = ["bilal","ali","owais","bilal","owais"];
+  final new_ballList = ball_List.toSet().toList();
+  print (new_ballList);
+}
+                             
+ /// Question No 2///
+ANSWER:
+void main() {
+  var lst1 = [1, 2, 3, 4, 5, 6, 7];
+  var lst2 = [3, 5, 6, 7, 9, 10];
+  lst1.removeWhere((e) => lst2.contains(e));
+  print(lst1);
+}
+
+
+/// Question NO 3 ///
+ANSWER:
+void main() {
+  var num1 = [1, 4, 9, 16, 25, 36, 49, 64, 81, 100];
+  var num2 =[];
+  for (var i in num1){
+    if (i % 2 == 0){
+      num2.add(i);
+    }
+  }
+  print(num2);
+    
+}
+
+///   Question no 4///
+ANSWER:
+void main() {
+  var number = 3;
+  if(number%2==0){
+   print("${number} Is NOt A Prime Number");
+}
+  else{
+    print("${number} Is A Prime Number"); 
+  }
+  
+}
+    
+///   Question no 5///
+ANSWER:
+void main() {
+  for(int num=1;num<=15;num++){
+     print("7 x${num}=${7*num}");
+  }
+}
+
+
+///   Question no 6///
+ANSWER:
+void main() {
+  
+  var fruits =["apple","mango","banana","orange","strawberry"];
+  for (var a in fruits){
+    print(a);
+    
+  }
+}
+
+///   Question no 7///
+ANSWER:  
+
+void main() {
+  int b = 0;
+   while(b*5<100){
+     b = b + 1;
+     print(b*5);
+   }
+  }
+ ///   Question no 8///
+ANSWER:  
+void main() {
+  num celsiusTemperature=15;
+  num fahrenheitTemperature=(celsiusTemperature * 9/5) + 32;
+  print("Celsius Temperature Converted Into Fahrenheit Temperature is ${fahrenheitTemperature}");
+  num fahrenheitTemperature2= 30;
+  num celsiusTemperature2 =(fahrenheitTemperature2 - 32) * (5/9);
+  print("Fahrenheit Temperature Converted Into Celsius Temperature Is ${celsiusTemperature2}");
+  
+  
+}
+///   Question no 9///
+ANSWER:      
+
+void main(){
+  num number1= 5;
+  num number2 = 6;
+  var operator = "*";
+  if(operator == "+"){
+    print(number1 + number2);
+  }
+  else if(operator == "-"){
+     print(number1 - number2);
+  }
+   else if(operator == "*"){
+     print(number1 * number2);
+   }
+    else if(operator == "/"){
+     print(number1 / number2);
+}
+   else if(operator == "%"){
+     print(number1 % number2);
+}
+}
+///   Question no 10///
+ANSWER:  
+
+void main(){
+ var vowels = ["a","e","i","o","u"];
+  var a = "i";
+  if(vowels[0] == a ){
+    print("TRUE");
+  }
+  else if(vowels[1] == a ){
+    print("TRUE");
+}
+   else if(vowels[2] == a ){
+    print("TRUE");
+}
+  else if(vowels[3] == a ){
+    print("TRUE");
+}
+  else if(vowels[4] == a ){
+    print("TRUE");
+}
+  else{
+    print("FALSE");
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+      
